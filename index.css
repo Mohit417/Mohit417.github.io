@@ -1,7 +1,7 @@
-.code_bg, .black_cover{
+.code_bg, .black_cover, .white_bg {
 	height: 100%;
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 0px;
     left: 0px;
 }
@@ -35,20 +35,32 @@
    	color:white	
 }
 
+
+
 .white_bg {
-    background: white; 
-    height: 100%;
-    width: 100%;
-    position: absolute;
+    background-color: #EEEEEE;
+    background-size: cover; 
     top: 100%;
-    left:0px;
 }
 
-.rounded_retangeles{
-	
+.about_me, .mohit_image {
+	position: absolute;
+	height: 86%;
+    width: 40%;
+    top: 4%;
+    border-radius: 5%;
+    padding: 1%;
+    left: 5%
 }
 
+.about_me {
+	background: blue;
+	width: 80%;
+}
 
 .mohit_image {
-	background-image: url("Mohit_Image.jpg")
+	top: 6%;
+	background-image: url("Mohit_Image.jpg");
+	height: 80%;
+	width: 30%;
 }
