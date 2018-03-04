@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	color: cyan;
+	text-align: center;
+}
+
+#picture {
+	float: right;
+}
+#mohit_paragraph {
+	color: purple;
+}
