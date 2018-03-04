@@ -1,27 +1,27 @@
-.code_bg {
-    background-image:url("SatherGate.jpg"); 
-    background-size: cover;
-    height: 600px;
+.code_bg, .black_cover{
+	height: 100%;
     width: 100%;
     position: fixed;
     top: 0px;
     left: 0px;
 }
 
+.code_bg {
+    background-image:url("SatherGate.jpg"); 
+    background-size: cover;
+    
+}
+
 .black_cover {
+	.intro;
 	background:black; 
-	position: fixed;
-	height: 600px;
-	width: 100%;
-    top: 0px;
-    left: 0px;
     opacity: 0.5;
 
 }
 
 .text_layer {
 	position: absolute;
-	height: 600px;
+	height: 100%;
 	width: 100%;
     top: 40%;
     left: 0px;
@@ -31,30 +31,24 @@
 	font-family:Courier;
     text-align: center;
     font-size: 300%;
-    height:200px;
     top: 50%;
    	color:white	
 }
 
-.blue_bg {
+.white_bg {
     background: white; 
-    height: 600px;
+    height: 100%;
     width: 100%;
     position: absolute;
-    top: 600px;
+    top: 100%;
     left:0px;
 }
 
-.black_berkeley_bg {
-    background: black; 
-    background-position: center;
-    background-size: cover;
+.rounded_retangeles{
+	
+}
 
-    height: 400px;
-    width: 100%;
-    position: absolute;
-    top: 600px;
-    left: 0px;
-    opacity: 0.5;
 
+.mohit_image {
+	background-image: url("Mohit_Image.jpg")
 }
